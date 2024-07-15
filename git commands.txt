@@ -1,0 +1,76 @@
+User@WINDELL-BF0OV1Q MINGW64 ~/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci (master)
+$ git init
+Initialized empty Git repository in C:/Users/User/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci/.git/
+
+User@WINDELL-BF0OV1Q MINGW64 ~/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci (master)
+$ git config --global user.name 'Dion Berbatovci'
+
+User@WINDELL-BF0OV1Q MINGW64 ~/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci (master)
+$ git config --global user.email 'jobuser2024@gmail.com'
+
+User@WINDELL-BF0OV1Q MINGW64 ~/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci (master)
+$ git remote add origin https://github.com/tovciii/tovciushtrime1.git
+
+User@WINDELL-BF0OV1Q MINGW64 ~/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci (master)
+$ git add *
+
+User@WINDELL-BF0OV1Q MINGW64 ~/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci (master)
+$ git commit -m 'intial commit'
+[master (root-commit) 0378ebe] intial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+User@WINDELL-BF0OV1Q MINGW64 ~/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 214 bytes | 214.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/tovciii/tovciushtrime1.git
+ * [new branch]      master -> master
+
+User@WINDELL-BF0OV1Q MINGW64 ~/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci (master)
+$ git commit -m 'second commit'
+On branch master
+nothing to commit, working tree clean
+
+User@WINDELL-BF0OV1Q MINGW64 ~/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci (master)
+$ git commit -m 'second commit'
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+User@WINDELL-BF0OV1Q MINGW64 ~/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci (master)
+$ git add *
+
+User@WINDELL-BF0OV1Q MINGW64 ~/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci (master)
+$ git commit -m 'second commit'
+[master ed99e9f] second commit
+ 1 file changed, 1 insertion(+)
+
+User@WINDELL-BF0OV1Q MINGW64 ~/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+User@WINDELL-BF0OV1Q MINGW64 ~/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 280 bytes | 280.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/tovciii/tovciushtrime1.git
+   0378ebe..ed99e9f  master -> master
+
+User@WINDELL-BF0OV1Q MINGW64 ~/Desktop/Full Stack/Ramiz/Ush/Ushtrimi1/UshtrimiTovci (master)
+$
